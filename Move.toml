@@ -1,0 +1,18 @@
+[package]
+name = "WarpgateSwap"
+version = "0.0.1"
+upgrade_policy = "compatible"
+
+[dependencies]
+AptosFramework = {git = "https://github.com/movementlabsxyz/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "movement"}
+AptosStdlib = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "2a458b5ffaaf6a9de6fac679a53912c0be9fe217"}
+
+
+[addresses]
+warpgate = "0x9e175a4b0423eb8a4db3a127c80d6eb3e40b8d54b6989a27b37808aba5f30be9"
+dev = "0xa9e39026c4a793078bec2dda05c0d46a1d961145d3d666eb63d150fdf44b6ccf"
+zero = "0000000000000000000000000000000000000000000000000000000000000000"
+lpfee = "0xec46cf8d4741ab4707bcd683d9eb31e32bd6b5c6cb72e507835e1e3dcffbb525"
+mmfee = "0x27919bde1c5500c5e7c02daafbe14916d6e63415fe19b180c51caf1d8cab0878"
+default_admin = "0x37dd514ebb1a4365b395bf55fc019c02029926c8b806c47701193b8b5872c289"
+test_coin = "0x16"
